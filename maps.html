@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jennah Gosciak</title>
+
+  <!-- Custom Google fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Raleway:400,500,300,700' rel='stylesheet' type='text/css'>
+  <link href="http://fonts.googleapis.com/css?family=Crimson+Text:400,600" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- Bootstrap CSS Style -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+  <!-- Template CSS Style -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <!-- HTML for nav -->
+  <script type="text/javascript" src="jquery.js"></script>
+  <script>
+    $(function(){
+      $("#DivContent").load("navbar.html");
+      console.log("hello");
+    });
+  </script>
+</head>
+<body>
+    <!-- Preload the Whole Page -->
+    <div id="preloader">
+      <div id="loading-animation">&nbsp;</div>
+    </div>
+    <div id="DivContent"></div>
+
+    <!-- Hero
+    ================================================== -->
+    <section>
+      <div id="research-section" class="landing-hero">
+        <ul class="ul-research">
+        <li class="li-research" style="text-align: left">
+          <div id="nyu-int-map">
+          <h2 style="text-align: left;">2021 Projects</h2>
+          <h3 style="text-align: left;">Interactive Map of NYU Land Ownership</h3>
+            <iframe src="https://jennahgosciak.github.io/nyu_ownership/06_WebMap_Comb/index.html" width="100%"
+          height="700" frameborder="0" scrolling="no" style="padding:auto;"></iframe>
+          <a id="int-map-link" title="Interactive Map of NYU Land Ownership"
+          href="https://jennahgosciak.github.io/nyu_ownership/06_WebMap_Comb/index.html" target="_blank">
+          Link to source file on Github</a>
+          </div>
+        </li>
+        <li class="li-research">
+          <div id="nyu-int-map">
+          <h3 style="text-align: left;">Flooding in New York City</h3>
+          <figure><img class="maps" src="assets/images/full_layout1.png">
+          </figure>
+        </div>
+        </li>
+        <li class="li-research">
+          <div class="flood-maps">
+            <div class="flood-img"><img class="maps" src="assets/images/full_layout3.png"></div>
+            <div class="flood-img"><img class="maps" src="assets/images/full_layout4.png"></div>
+            <div class="flood-img"><img class="maps" src="assets/images/full_layout5.png"></div>
+          </div>
+        </li>
+        <li class="li-research">
+          <div id="nyu-int-map">
+          <h3 style="text-align: left;">Rezonings and Land Use</h3>
+          <figure><img class="maps" src="assets/images/nyc_rezonings_comp-01.png">
+          </figure>
+        </div>
+        </li>
+        <li class="li-research">
+          <div id="nyu-int-map">
+          <figure><img class="maps" src="assets/images/n_rz_comp_2010_2020-01.png">
+          </figure>
+        </div>
+        </li>
+        <li class="li-research">
+          <div id="nyu-int-map">
+          <figure><img class="maps" src="assets/images/change_maps-01.png">
+          </figure>
+          </div>
+        </li>
+        <li class="li-research" style="padding-top: 20px">
+          <div id="nyu-int-map">
+          <h2 style="text-align: left">Context Maps</h2>
+          <figure><img class="maps" id="map-1" src="assets/images/map3.png">
+            <figcaption>Context map for the city of Bowie, MD.</figcaption>
+          </figure>
+        </div>
+        </li>
+        <li class="li-research">
+          <div id="nyu-int-map">
+          <figure><img class="maps" id="map-2" src="assets/images/map1.png">
+            <figcaption>Context map for the Metropolitan Hospital Center in New York City.</figcaption>
+          </figure>
+          </div>
+        </li>
+        <li class="li-research">
+          <div id="nyu-int-map">
+          <figure>
+            <img class="maps" style="width:70%" src="assets/images/190805_BASEMAP_V2_JG-01.png">
+            <figcaption>Context map of Free Union, Virginia.</figcaption>
+          </figure>
+          </div>
+        </li>
+        <li class="li-research">
+          <div id="nyu-int-map">
+          <h2 style="text-align: left">Ownership in Providence</h2>
+          <div class = "pvd-maps">
+            <div class = "pvd-img">
+              <img class = "maps" id="map-3a" src="assets/images/ownership1.png">
+            </div>
+            <div class = "pvd-img">
+              <img class = "maps" id="map-3b" src="assets/images/ownership4.png">
+            </div>
+            <div class = "pvd-img">
+              <img class = "maps" id="map-3c" src="assets/images/ownership2.png">
+            </div>
+            <div class = "pvd-img">
+              <img class = "maps" id="map-3d" src="assets/images/ownership3.png">
+            </div>
+          </div>
+          </div>
+        </li>
+        <li class="li-research">
+          <div id="nyu-int-map">
+          <h2 style="text-align: left">Mapping the Chicago Fire</h2>
+          <figure>
+            <img class="maps" id="map-5" src="assets/images/chicago2.png">
+            <figcaption>Mapping the Chicago Fire by georeferencing historical drawings.</figcaption>
+          </figure>
+        </div>
+        </li>
+        <li class="li-research" id="prisons">
+          <div id="nyu-int-map">
+            <h2 style="text-align: left">Prison Locations in England and Wales</h2>
+            <img class="maps" id="map-6" src="assets/images/prisons.png">
+          </div>
+        </li>
+      </ul>
+    </div>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <img class="modal-content" id="img01">
+    </div>
+    </section>
+
+    <script>
+    // Get the modal
+    var modal = document.getElementById('myModal');
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var images = document.getElementsByClassName('maps');
+    var modalImg = document.getElementById("img01");
+
+    // Go through all of the images with our custom class
+    for (var i = 0; i < images.length; i++) {
+      var img = images[i];
+      // and attach our click listener for this image.
+      img.onclick = function(evt) {
+        modal.style.display = "block";
+        modalImg.src = this.src;
+      }
+    }
+
+    modal.onclick = function() {
+      modal.style.display = "none";
+    }
+
+    </script>
+    <!-- JS libraries and scripts -->
+    <script src="assets/js/jquery-1.11.3.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+  </html>

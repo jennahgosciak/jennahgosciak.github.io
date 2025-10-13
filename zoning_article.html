@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jennah Gosciak</title>
+
+  <!-- Custom Google fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Raleway:400,500,300,700' rel='stylesheet' type='text/css'>
+  <link href="http://fonts.googleapis.com/css?family=Crimson+Text:400,600" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- Bootstrap CSS Style -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+  <!-- Template CSS Style -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <!-- HTML for nav -->
+  <script type="text/javascript" src="jquery.js"></script>
+  <script>
+    $(function(){
+      $("#DivContent").load("navbar.html");
+      console.log("hello");
+    });
+  </script>
+</head>
+<body>
+    <!-- Preload the Whole Page -->
+    <div id="preloader">
+      <div id="loading-animation">&nbsp;</div>
+    </div>
+    <div id="DivContent"></div>
+
+    <div id="ac-wrapper">
+      <div id="popup">
+              <p id="popup-text">Note: this was originally published on
+                <a href="https://jennahgosciak.medium.com/contextual-changes-in-nyc-rezonings-5eb6f3a126c7" target="_blank">Medium</a>,
+                but as of February 2022 they've updated their layout and the images do not render full-size. I've re-created
+                the original layout of the article here. The article is best viewed on a large screen.
+              </p>
+      </div>
+    </div>
+
+    <!-- Hero
+    ================================================== -->
+    <section>
+      <div id = "zoning-section">
+        <br>
+        <div class="floodplain-title-div">
+          <h1 class="floodplain-title">New York’s (Re)zonings in Context</h1>
+          <h2 class="floodplain-title">Tracing New York City’s land use changes, 2010–2020</h2>
+          <br>
+        </div>
+
+        <div class="floodplain-img-div">
+          <img class="zoning-img" src="assets/images/zoning-article/FIG-4-DCP-Zoning-Map.jpg">
+          <figcaption>New York City Zoning Map (City Limits, originally from New York City Planning).</figcaption>
+        </div>
+
+        <div class="main-text">
+          <h3>Introduction</h3>
+          <p>In the past few decades, zoning has been a contentious issue in New York City (NYC). Starting at the beginning of the Bloomberg administration in 2002, the city undertook rezonings at a faster and more aggressive pace. Rezonings were a way to promote growth while targeting certain neighborhoods. Under de Blasio’s administration, rezonings have continued (Angotti & Morse, 2017). They are critical to the administration’s goal of creating 300,000 affordable apartments by 2026 (Spivack, 2020). The city initially set out to rezone 15 neighborhoods, but as of September 2020, it had only rezoned 6 (Kully, 2020). In some neighborhoods like Bushwick, Sunset Park, Inwood, and most recently Soho/Noho, residents and community groups have fiercely contested the rezonings.</p>
+          <br>
+          <h4>What is Zoning?</h4>
+          <p>Zoning: "a law that organizes how land may be used" (NYC Planning, n.d.-e). It controls several aspects of land use:
+            <ul>
+            <li>whether the land can be used for residential, commercial, industrial, or mixed-use purposes</li>
+            <li>how much can be built on the land</li>
+            <li>how much land must remain unbuilt</li>
+          </ul>
+        </p>
+          <br>
+          <p>There are also special purpose districts, which often have an underlying goal such as increasing economic activity or limiting development in areas vulnerable to flooding (NYC Planning, n.d.-d).</p>
+          <br>
+          <p>Given an area’s existing zoning designations, one can usually develop on a lot “as of right” — i.e. with only the relevant building permits. However, if a proposed development doesn’t conform to the zoning, developers or, in some cases, the Department of City Planning Commission (DCP) will need to change it (Williams, 2018). The city has the authority to amend zoning “for the conduct of planning relating to the orderly growth, improvement and future development of the city" (NYC Planning, n.d.-b).</p>
+          <br>
+          <p>The process of amending the zoning designations is called the Uniform Land Use Review Procedure (ULURP). ULURP can last between 7–9 months and involves public hearings with the community board, borough president, city council, and mayor (ULURP Explained , n.d.). The community board’s vote is advisory. And if any of the other bodies vote no, either the borough president, city council, or mayor can veto the decision.</p>
+          <br>
+          <p>Although rezonings can spur growth and produce much-needed housing, research in New York City over the past ten years has identified that rezonings are rarely race or class neutral. A 2010 report by the NYU Furman Center found that rezonings were more likely to be in neighborhoods with larger shares of Black and Latinx residents and with lower median incomes compared to citywide numbers (Armstrong et al., 2010). The 2016 book <em>Zoned Out</em> deals extensively with the notion that rezonings are discriminatory. In detailed case studies on Williamsburg, Harlem, and Chinatown, the authors argue that new development — with increasing prices and inadequate zoning protections — has resulted in the displacement of low-income communities and communities of color (Angotti & Morse, 2017). At the same time, DCP’s use of downzoning and contextual zoning has preserved high-income, majority-white enclaves — often at the expense of the less affluent surrounding neighborhoods (Angotti & Morse, 2017). Recently, the Association for Neighborhood Housing and Development (ANHD) published a report on rezonings that identified two important findings: (1) neighborhood rezonings (i.e. those proposed by the city) are less effective than other types of rezonings and (2) neighborhood rezonings are least beneficial in Majority Black Indigenous People of Color/Low Income areas (Walters, 2021).</p>
+          <br>
+          <h3>Purpose</h3>
+          <p>Given zoning's contentious position in NYC’s planning history, my goal is to descriptively assess how rezonings have affected land use patterns. Although a rezoning changes what is permissible on a given lot, it doesn't prescribe a certain type of use. Comparing lot-level data citywide and in areas that have been rezoned between 2010 to 2020, I examine changes in the number of residential units, building class descriptions, and land use categories.</p>
+          <br>
+          <p>Note: I do not distinguish between downzonings, upzonings, and hybrid rezonings nor do I distinguish between rezonings initiated by the city or by individuals. Both categories have been the subject of previous research and would be useful categories to explore further in expanding the scope of this article (Goldberg, 2015; Walters, 2021).</p>
+          <br>
+          <h3>Data Sources & Methodology</h3>
+          <p>Data on lot-level characteristics and zoning amendments come from New York City’s Department of City Planning (DCP) (NYC Planning, n.d.-a). DCP produces the Primary Land Use Tax Lot Output (PLUTO™) by merging tax lot data with columns from the Department of Finance’s Digital Tax Map (DTM) and information from other city agencies. Polygon shapefiles of zoning amendments since 1977 come from the NYC GIS Zoning Features geodatabase, which DCP updates monthly (NYC Planning, n.d.-c). Updates include recent zoning changes adopted by the City Council. Other spatial data files come from DCP’s open data site (NYC Planning, n.d.-a).</p>
+          <br>
+          <p>In comparison to current research on zoning in NYC, the scope of this article is narrow. After reviewing the changes in zoning amendments between 2010 and 2020, I compare the average number of residential units, building class description differences, and land use category differences between these two periods. I first joined version 8 of MapPLUTO for 2020 with version 1 for 2010 using a point-to-polygon spatial join. I also created a secondary dataset that intersected MapPLUTO records with all geographies for rezonings adopted between 2010 and 2020.</p>
+          <br>
+          <p>I first sought to understand general trends in rezonings. To do this, I calculated the number of rezonings and the area percentage of rezonings citywide, by borough, and by neighborhood. I also produced maps to illustrate where rezonings have occurred since 1977 and between 2010 and 2020.</p>
+          <br>
+          <p>Then, I examined differences in residential units, building class descriptions, and land use categories between 2010 and 2020 citywide and for the areas where rezonings occurred. Since building class descriptions and land use categories are highly detailed, it was difficult to observe broad trends. As a result, I created four indicators to study more general land use patterns: growth in residential housing and vacant land and declines in residential housing and public and outdoor space. With these indicators, I calculated the percentage of rezoned lots that experienced these events by neighborhood. Simplifying changes in land use to only four key outcomes allowed me to view the spatial distribution of trends more clearly.</p>
+
+          <div class="zoning-img-div">
+            <img class="zoning-img" src="assets/images/zoning-article/nyc_rezonings_comp-01.png">
+          </div>
+
+          <br>
+          <br>
+          <h3>Results</h3>
+          <h4>I. Where Rezonings Occur</h4>
+          <p>Since 1977, almost 50% — equivalent to 149 square miles — of the land area in the city has undergone a zoning change. Differences are more pronounced by borough. In Manhattan, for example, 69% of the borough has been rezoned since 1977 compared to 33% of the Bronx. In the last decade, the percentages are much smaller and the pattern changes. For instance, while 67% of Staten Island has been rezoned since 1977, only 2% has been rezoned between 2010 and 2020.</p>
+          <div class="zoning-img-div">
+            <img class="zoning-img" style = "width: 50%" src="assets/images/zoning-article/rezoning_stats-01.png">
+          </div>
+          <br>
+          <br>
+          <p>The highest percentage of rezonings between 2010 and 2020 occurred in Queens with 15% of the borough’s geographic area rezoned between 2010 and 2020. And Manhattan, which had the highest area percentage of rezonings since 1977, also had the second highest area percentage between 2010 and 2020.</p>
+          <br>
+          <p>Comparing 1977–2021 to 2010–2020 does obscure some nuanced temporal patterns. For instance, the map below reveals that there were many rezonings in the 1970s and 1980s in midtown and uptown Manhattan. Since 2008, more rezonings have occurred in northern Manhattan and the outer boroughs — particularly the Bronx and Queens. The 2009–2015 and 2016–2021 rezonings primarily reflect the agenda of the de Blasio administration, which took office in 2013.</p>
+          <br>
+          <div class="zoning-img-div">
+            <img class="zoning-img" src="assets/images/zoning-article/n_rz_comp_2010_2020-01.png">
+          </div>
+          <br>
+          <br>
+          <p>The maps above focus on the 2010–2020 time period and reveal time trends with more precision. The figure on the left shows the distribution of the number of rezonings: neighborhoods in all of the city’s boroughs experienced multiple rezonings. The two neighborhoods with the highest number of rezonings were Mott Haven Port Morris and Flushing-Willett’s Point. It’s difficult to tell from the map how extensive each rezoning was — in terms of the geographic area and when they occurred. This information instead is more clearly conveyed in the map on the right and highlighted with arrows are the rezonings with the largest geographic areas. While Flushing-Willet’s Point had the highest number of rezonings, in terms of space the rezoning area was quite small. Instead, neighborhoods like Jamaica, Astoria, and Ozone Park experienced rezonings on a much larger spatial scale. Ozone Park, for example, was one of the last and among the largest rezonings under the Bloomberg administration (Rafter, 2013). The rezoning in Jamaica was also considered one of the largest and most comprehensive rezonings; it affected around 500 city blocks (CityLand, 2007). The largest rezonings all occurred before 2015. Most of the rezonings since have been much smaller in scale.</p>
+          <br>
+
+          <h4>II. Residential units, building class, and land use differences</h4>
+          <div class="zoning-img-div">
+            <img class="zoning-img" src="assets/images/zoning-article/unit_change-01.png">
+          </div>
+          <br>
+          <br>
+          <p>Planners frequently use rezonings as a way to incentive residential development and affordable housing (Angotti & Morse, 2017; Gates, 2020). As a result, I expect rezoned areas to experience greater increases in residential units on average. The effect of upzoning, illustrated in the figure above, may be neutralized by simultaneous downzoning in the same area, which would constrain and disincentivize new residential development. Differences in the average number of residential units are higher in the rezoned areas in the Brooklyn, Bronx, and Manhattan boroughs. The Bronx is the most extreme: in all areas, the difference in average residential units between 2010 and 2020 is 4.4, but in rezoned areas, the difference is 13. The average number of residential units is slightly higher in 2020 for buildings in both Queens and Staten Island, and in both boroughs the differences between citywide calculations and rezoned areas are small.</p>
+          <div class="zoning-img-div">
+            <img class="zoning-img" src="assets/images/zoning-article/bldg_class_change-01.png">
+          </div>
+          <br>
+          <p>The differences in building class descriptions, illustrated in the figure above, indicate smaller, incremental changes in the built environment, even in rezoned areas. The highest percentages of building class description differences — out of all building class description differences citywide and in rezoned areas — involve changes from one-family to two-family houses. In rezoned areas, the highest percentage of differences is from “one story” to “cape cod.” Cape cod buildings are detached houses with steep roofs and around 90% of them exist in Queens. This finding perhaps illustrates the significant effect of the rezonings that occurred in Queens between 2010 and 2020.</p>
+
+          <br>
+          <p>The figure comparing changes in building class descriptions offers a different narrative. It suggests that residential density is fluctuating, but not substantively changing. At the same time, the technical language of building class descriptions obscures any understanding of broader trends. The difference between “two stories — detached” and a “two family converted from one family” has little meaning to a non-expert. Additionally, the level of detail generates small buckets of information; most combinations of building class changes were less than 1% of all changes.</p>
+          <br>
+          <p>To examine broader trends, I turned to land use categories. Land use categories are aggregated versions of building class descriptions. With land use categories, a clearer pattern appears. As one might expect, a high percentage of buildings overall and in rezoned areas convert vacant land to residential housing (9.7% overall and 9.2% in rezoned areas). These conversions aren’t conversions to tall skyscrapers, but rather to one- and two-family buildings. There are also more mixed-use buildings in 2020 compared to 2010. This finding is true citywide and in rezoned areas.</p>
+          <div class="zoning-img-div">
+            <img class="zoning-img" src="assets/images/zoning-article/landuse_change-01.png">
+          </div>
+          <br>
+          <p>Overall, the highest percentage of land use changes are conversions from commercial and office space uses to mixed-use involving residential and commercial uses (10.3%). The pattern of land use changes does not look drastically different for rezoned areas compared to all areas citywide. The change from residential housing to vacant land, which is the highest percentage in rezoned areas and the fourth highest citywide, does stand out. After looking at a random sample of properties on Google Maps, I determined that many of these properties are likely under construction for new development. But this suggests that the dominant housing strategy is one of new development: one or two family buildings are knocked down and replaced rather than renovated.</p>
+          <div class="zoning-img-div">
+            <img class="zoning-img" src="assets/images/zoning-article/change_maps-01.png">
+          </div>
+          <br>
+          <p>Based on land use changes between 2010 and 2020, I identified 4 outcomes to explore in greater detail in rezoned areas at the neighborhood level:</p>
+          <ul>
+            <li>Growth</li>
+            <ul><li>vacant land</li>
+              <li>residential land</li></ul>
+              <li>Declines</li>
+              <ul><li>public and outdoor space</li>
+                <li>residential land</li></ul>
+          </ul>
+          <p>The maps above reveal broad spatial trends related to land use changes in NYC. In neighborhoods in the southern parts of Brooklyn and the Bronx, for example, there have been significant increases in vacant land. Given that many vacant lots are likely in transition, this indicates where new development is taking place. The vacant land is probably temporary. In neighborhoods in south Brooklyn, the area of rezonings is much smaller, so the maps may also overinflate the importance of vacant land growth in those areas (since the maps use percentages).</p>
+          <p>The South Bronx, East Harlem, and Williamsburg are also areas that have experienced declines in public and outdoor space. These are also areas that have gained a higher percentage of housing, which illustrates one of the difficult tradeoffs in housing development: building new housing or providing public and outdoor space. In general, the gains and losses in residential housing in rezoned areas seem mixed across neighborhoods.</p>
+          <br>
+          <h3>Conclusion</h3>
+          <p>I’ve narrowly reviewed the changes that occurred in housing and land use citywide and in rezoned areas between 2010 and 2020. The findings do provoke questions for further study:</p>
+          <ul>
+            <li>Why do differences in building class descriptions reveal mostly small and largely insignificant residential changes (e.g. 1-family converted to a 2-family home)?</li>
+            <li>What is the motivation for building class differences that do not increase density?</li>
+            <li>What is the relationship between rezonings and vacant land?</li>
+            <li>Why have some neighborhoods experienced declines in public and outdoor space? Given that such combinations of land use changes are more infrequent and did not feature in any of the land use graphs, perhaps these changes are unconnected to the rezonings, or they might have occurred in the context of a specific project. It would be useful to determine when such outcomes occur and why.</li>
+          </ul>
+
+          <br>
+          <h3>References</h3>
+          <div class="zoning-link" style="text-indent: -36px; padding-left: 36px;">
+            <p>Angotti, T., & Morse, S. (2017). <em>Zoned out!: Race, Displacement, and City Planning in New York City.</em>Urban Research (UR).</p>
+            <p>Armstrong, A., Been, V., Madar, J., & McDonnell, S. (2010). <em>How have recent rezonings affected the city’s ability to grow.</em> The Furman Center for Real Estate and Urban Policy.</p>
+            <p>CityLand. (2007). <em>Jamaica rezoning approved with modifications. Center for New York City Law.</em><a href=https://www.citylandnyc.org/jamaica-rezoning-approved-with-modifications/>https://www.citylandnyc.org/jamaica-rezoning-approved-with-modifications/</a>.</p>
+            <p>Gates, M. (2020). <em>Five New York City Neighborhoods to Upzone for Affordable Housing.</em> Regional Plan Association. <a href=https://rpa.org/latest/lab/rezoning-soho-next-five-neighborhoods>https://rpa.org/latest/lab/rezoning-soho-next-five-neighborhoods</a>.</p>
+            <p>Goldberg, L. L. M. (2015). <em>Game of Zones: Neighborhood Rezonings and Uneven Urban Growth in Bloomberg’s New York City</em> (Unpublished doctoral dissertation). Massachusetts Institute of Technology.</p>
+            <p>Kully, S. A. (2020, Sept). As NYC Neighborhoods Push Back against Rezonings, de Blasio’s Signature Housing Policy is Threatened. <em>City Limits.</em>
+              <a href=https://citylimits.org/2020/09/10/six-down-one-to-go-where-de-blasios-rezonings-stand/>https://citylimits.org/2020/09/10/six-down-one-to-go-where-de-blasios-rezonings-stand/</a>.</p>
+              <p>New York City Planning. (n.d.-a). Bytes of the big apple™. Retrieved 2022-11-23, from https://www.nyc.gov/site/planning/data-maps/open-data.page.</p>
+              <p>New York City Planning. (n.d.-b). <em>How zoning gets amended.</em> <a href=https://www.nyc.gov/site/planning/zoning/about-how-zoning-gets-amended.page>https://www.nyc.gov/site/planning/zoning/about-how-zoning-gets-amended.page</a>.</p>
+              <p>New York City Planning. (n.d.-c). NYC Gis Zoning Features. <a href="https://www.nyc.gov/site/planning/data-maps/open-data/dwn-gis-zoning.page">https://www.nyc.gov/site/planning/data-maps/open-data/dwn-gis-zoning.page</a>.</p>
+              <p>New York City Planning. (n.d.-d). <em>Special purpose districts: Citywide.</em> <a href=https://www.nyc.gov/site/planning/zoning/districts-tools/special-purpose-districts-citywide.page>https://www.nyc.gov/site/planning/zoning/districts-tools/special-purpose-districts-citywide.page</a>.</p>
+              <p>New York City Planning. (n.d.-e). <em>What is zoning?</em> <a href=https://www.nyc.gov/site/planning/zoning/about-zoning.page>https://www.nyc.gov/site/planning/zoning/about-zoning.page</a>.</p>
+              <p>Rafter, D. (2013). Ozone park rezoning plan moving forward. <em>Queens Chronicle</em>. <a href=https://www.qchron.com/editions/south/ozone-park-rezoning-plan-moving-forward/articleed6e6730-2cd4-59dc-816e-6d31c09de586.html>https://www.qchron.com/editions/south/ozone-park-rezoning-plan-moving-forward/articleed6e6730-2cd4-59dc-816e-6d31c09de586.html</a>.</p>
+              <p>Spivack, C. (2020, Mar). As NYC Neighborhoods Push Back against Rezonings, de blasio’s Signature Housing Policy is Threatened. <em>Curbed NY.</em> <a href=https://ny.curbed.com/2020/2/6/21123983/nyc-affordable-housing-rezoning-bill-de-blasio>https://ny.curbed.com/2020/2/6/21123983/nyc-affordable-housing-rezoning-bill-de-blasio</a>.</p>
+              <p>ULURP Explained. (n.d.). <em>City Limits.</em> <a href=https://citylimits.org/zonein/ulurp-explained/>https://citylimits.org/zonein/ulurp-explained/</a>.</p>
+              <p>Walters, C. (2021). <em>Not all housing units are created equal.</em> The Association for Neighborhood & Housing Development. <a href=https://anhd.org/report/not-all-housing-units-are-created-equal>https://anhd.org/report/not-all-housing-units-are-created-equal</a>.</p>
+              <p>Williams, K. (2018, Mar). Breaking down the city’s rezoning process. <em>The New York Times.</em> <a href=https://www.nytimes.com/2018/03/15/nyregion/breaking-down-the-citys-rezoning-process.html>https://www.nytimes.com/2018/03/15/nyregion/breaking-down-the-citys-rezoning-process.html</a>.</p>
+            </div>
+            <br>
+          </div>
+        </div>
+      </div>
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+          <img class="modal-content" id="img01-zoning">
+        </div>
+        </section>
+
+        <script>
+        // Get the modal
+        var modal = document.getElementById('myModal');
+
+        // Get the image and insert it inside the modal - use its "alt" text as a caption
+        var images = document.getElementsByClassName('zoning-img');
+        var modalImg = document.getElementById("img01-zoning");
+
+        // Go through all of the images with our custom class
+        for (var i = 0; i < images.length; i++) {
+          var img = images[i];
+          // and attach our click listener for this image.
+          img.onclick = function(evt) {
+            modal.style.display = "block";
+            modalImg.src = this.src;
+          }
+        }
+
+        modal.onclick = function() {
+          modal.style.display = "none";
+        }
+
+        $(document).ready(function(){
+         setTimeout(function(){
+            PopUp();
+          },50); // 5000 to load it after 5 seconds from page load
+        });
+
+        var ac = document.getElementById("ac-wrapper")
+        ac.onclick = function() {
+          ac.style.display = "none";
+        }
+
+        </script>
+        <!-- JS libraries and scripts -->
+        <script src="assets/js/jquery-1.11.3.min.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+    </html>
