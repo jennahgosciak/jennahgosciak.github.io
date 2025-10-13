@@ -377,3 +377,953 @@ body {
 .publications-text > p {
     width: 80%;
 }
+
+/***********************************************************************************************/
+/* =Research section */
+/***********************************************************************************************/
+#research-section {
+  position: relative;
+  top: 0%;
+  height: 100vh;
+  background-size: cover;
+}
+
+.ul-research {
+  position: relative;
+  top: 40px;
+}
+
+.li-research {
+  position: relative;
+  z-index: 15;
+  list-style-type: none;
+  padding-top: 20px;
+}
+
+#research-section > li > h2 {
+  position: relative;
+  color: black;
+  padding-left: 7.5px;
+  left: 7.5px;
+  z-index: 12;
+}
+
+.research-grid {
+  position: relative;
+  z-index: 10;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  gap: 40px;
+}
+
+.research-img-nyu {
+  width: 80%;
+  height: auto;
+  text-align: center;
+  margin: auto;
+}
+
+.research-img-furman {
+  width: 80%;
+  height: auto;
+  text-align: center;
+  margin: auto;
+}
+
+#furman-pic {
+  width: 80%;
+  border: 1px solid gray;
+}
+
+.research-img  {
+  width: 100%;
+  height: auto;
+}
+
+.research-block-1 {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+
+.research-grid-2 {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  width: 100%;
+  margin: auto;
+}
+
+.research-grid-2 > *{
+  flex: 1 1 300px;
+  border: 1px solid gray;
+}
+
+.scribd_iframe_embed {
+  position: relative;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.scribd-text {
+  position: relative;
+  left: 0px;
+  margin-left: 0px;
+  padding-left: 0px;
+  color: gray
+}
+
+.scribd-text:hover {
+  color: red
+}
+
+.tia-poster {
+  border: 1px solid gray;
+  width: 100%;
+}
+
+.research-img > a {
+  color: gray;
+}
+
+.research-img > a:hover{
+  color: red;
+}
+
+/***********************************************************************************************/
+/* =Floodplain article */
+/***********************************************************************************************/
+#floodplain-section {
+  position: relative;
+  top: 0%;
+  height: 100vh;
+  background-size: cover;
+}
+
+.floodplain-title-div {
+  position: relative;
+  left: 0px;
+  margin-left: 10px;
+}
+.floodplain-title {
+  position: relative;
+  top: 50px;
+}
+
+.floodplain-img-div {
+  position: relative;
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  top: 50px;
+}
+
+.floodplain-img-div2 {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  top: 70px;
+  left: 0;
+  background-color: black;
+}
+
+.floodplain-img {
+  width: 100%;
+  height: auto;
+}
+
+.main-text {
+  position: relative;
+  top: 90px;
+  margin: auto;
+  width: 80%;
+}
+
+.floodplain-li {
+  padding-top: 10px;
+}
+
+.article-link {
+  text-decoration: underline;
+  color: black;
+}
+
+.article-link:hover {
+  color: red;
+}
+
+/***********************************************************************************************/
+/* =Zoning article */
+/***********************************************************************************************/
+#zoning-section {
+  position: relative;
+  top: 0%;
+  height: 100vh;
+  background-size: cover;
+}
+
+.zoning-img-div {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  top: 10px;
+  background-color: white;
+}
+
+.zoning-img {
+  width: 100%;
+  height: auto;
+  background-color: white;
+}
+
+#img01-zoning {
+  background-color: white;
+}
+
+.zoning-link > p > a {
+  color: gray;
+}
+
+.zoning-link > p > a:hover{
+  color: red;
+}
+
+/***********************************************************************************************/
+/* =NYU article */
+/***********************************************************************************************/
+#nyu-section {
+  position: relative;
+  top: 0%;
+  height: 100vh;
+  background-size: cover;
+}
+
+.nyu-int-map-outer {
+  border: 1px solid gray;
+  width: 80%;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  height: 80px;
+  min-width: 390px;
+  text-align: center;
+  margin: auto;
+}
+
+.nyu-int-map-inner {
+  position: relative;
+  left: 10px;
+  top: 10px;
+  padding-right: 10px;
+  text-align: left;
+}
+
+.nyu-int-map-inner > h2, .nyu-int-map-inner > a {
+  position: relative;
+  font-size: 15px;
+  padding: 0;
+  text-transform: none;
+}
+
+.nyu-int-sub {
+  color: gray;
+}
+
+.nyu-int-sub:hover {
+  color: red;
+}
+
+#nyu-mn {
+  position: relative;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.nyu-art-img-div > figcaption {
+  text-align: center;
+}
+
+#timeline {
+  margin-top: -50px;
+}
+
+#prop-summ {
+  display: inline-block;
+  width: 60%;
+  text-align: left;
+  float: left;
+  margin-right: 50px;
+}
+
+#prop-summ > img {
+  max-height: 700px;
+}
+
+#ranking {
+  position: relative;
+  top: 80px;
+}
+
+#cd-panels {
+  position: relative;
+  top: 80px;
+  background-color: black;
+}
+
+#nyu-old {
+  width: 65%;
+  margin: auto;
+  text-align: center;
+}
+
+#nyu-old2 {
+  position: relative;
+  width: 40%;
+  max-height: 480;
+  text-align: left;
+  float: left;
+  margin-right: 50px;
+}
+
+#prop-ownership {
+  position: relative;
+  top: 100px;
+}
+
+.area1 {
+  position: relative;
+  top: 80px;
+}
+
+#sales {
+  width: 70%;
+  float: left;
+  margin-right: 50px;
+  top: -10px;
+}
+
+#taxes {
+  width: 70%;
+  text-align: center;
+  margin: auto;
+}
+
+/***********************************************************************************************/
+/* =Maps section */
+/***********************************************************************************************/
+
+#maps-section {
+  position: relative;
+  top: 0%;
+  height: 100vh;
+  background-size: cover;
+}
+
+.li-maps {
+  position: relative;
+  z-index: 10;
+  list-style-type: none;
+  padding-top: 20px;
+  /*max-width: 1000px;*/
+  width: 80%;
+  height: auto;
+  /*margin-left: -500px;
+  left: 50%;*/
+  text-align: center;
+}
+
+#nyu-int-map {
+  width: 80%;
+  height: 100%;
+  text-align: center;
+  margin: auto;
+}
+
+.flood-maps {
+  width: 80%;
+  height: 100%;
+  text-align: center;
+  margin: auto;
+}
+
+.pvd-maps {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  margin: auto;
+}
+
+.li-maps-2 {
+  position: relative;
+  top: 30px;
+  z-index: 10;
+  list-style-type: none;
+  padding-top: 20px;
+  width: 700px !important;
+  height: auto;
+  margin-left: -350px;
+  left: 50%;
+}
+
+#map-3, .maps > figcaption {
+  position: relative;
+  width: 500px;
+  left: 50%;
+  margin-left: -250px;
+}
+
+#map-5 {
+  padding-top: 20px;
+}
+
+#prison-header {
+  position: relative;
+  top: 20px;
+}
+
+#prisons, #map-6 {
+  position: relative;
+  top: -10px;
+}
+
+.pvd-maps, .flood-maps {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-direction: row;
+  /*width: 1000px;*/
+}
+
+.pvd-maps >* {
+  flex: 1 1 40%;
+}
+
+.flood-maps >* {
+  flex: 1 1 30%;
+}
+
+#int-map-link {
+  color: black;
+}
+
+#int-map-link:hover {
+  color: red;
+}
+
+/***********************************************************************************************/
+/* =Design section */
+/***********************************************************************************************/
+#design-section {
+  position: relative;
+  top: 60px;
+  background-size: cover;
+  height: 100vh;
+}
+
+.li-design > h2 {
+  position: relative;
+  left: 50%;
+  max-width: 1000px;
+  margin-left: -500px;
+}
+
+.ul-design {
+  position: relative;
+  top: 0px;
+}
+
+.li-design {
+  position: relative;
+  z-index: 10;
+  list-style-type: none;
+  padding-top: 0px;
+  width: 700px !important;
+  height: auto;
+  margin-left: -350px;
+  left: 50%;
+}
+
+.li-design-2 {
+  position: relative;
+  top: 30px;
+  z-index: 10;
+  list-style-type: none;
+  padding-top: 20px;
+  width: 1000px !important;
+  height: auto;
+  margin-left: -500px;
+  left: 50%;
+}
+
+.journey-mapping-container {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+  gap: 20px;
+  flex-direction: row;
+  width: 100%;
+}
+
+.journey-mapping-container > * {
+  flex: 1 1 100px;
+}
+
+.art-container {
+  width: 80%;
+  height: 100%;
+  text-align: center;
+  margin: auto;
+}
+
+.illustrator-art-container {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+  gap: 20px;
+  flex-direction: row;
+}
+
+.illustrator-art-container > * {
+  flex: 1 1 30%;
+}
+
+.img-text {
+  position:relative;
+  left:0px;
+  visibility:hidden;
+}
+
+.illustrator-art:hover .img-text {
+  visibility: visible;
+}
+
+.makaranta-container {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+  gap: 20px;
+  flex-direction: row;
+}
+
+.makaranta-container > * {
+  padding-top: 40px;
+  flex: 1 1 20%;
+}
+
+/***********************************************************************************************/
+/* =Video section */
+/***********************************************************************************************/
+#video-section {
+  position: relative;
+  top: 50px;
+  background-size: cover;
+}
+
+.video > p {
+  color: white;
+}
+
+.video > p > a {
+  color: black;
+}
+
+.vimeo-link:hover {
+  color: red;
+}
+
+
+.video-container {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 5px;
+  padding-top: 20px;
+  gap: 5%;
+  flex-direction: row;
+  text-align: center;
+  /*width: 1000px;*/
+  width: 80%;
+  margin: auto;
+}
+
+.video-container > * {
+  z-index: 100;
+  flex: 1 1 40%;
+}
+
+/***********************************************************************************************/
+/* =POPUP */
+/***********************************************************************************************/
+#ac-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10000;
+  background: rgb(0,0,0,0.5)
+}
+
+#popup {
+  width: 40%;
+  height: 220px;
+  position: relative;
+  top: 150px;
+  left: 0px;
+  min-width: 200px;
+  max-width: 400px;
+  margin: auto;
+  z-index: 10010;
+  text-align: center;
+}
+
+#popup-text {
+position: relative;
+color: white;
+width: 100%;
+height: auto;
+padding-left: 5%;
+padding-top: 5%;
+padding-right: 5%;
+padding-bottom: 5%;
+text-align: left;
+font-size: 1.5vw;
+background: rgb(0,0,0);
+}
+
+#popup-text > a {
+color: white;
+text-decoration: underline;
+font-size: 1.5vw;
+}
+
+#popup-text > a:hover {
+color: red;
+}
+
+/***********************************************************************************************/
+/* =IMAGE ANIMATION */
+/***********************************************************************************************/
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 10000; /* Sit on top */
+    padding-top: 50px; /* Location of the box */
+    padding-bottom: 50px;
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: auto;
+  max-height: 100%;
+  overflow: auto;
+  vertical-align: middle;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* Add Animation */
+.modal-content {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+.out {
+  animation-name: zoom-out;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(1) translateY(-50%)}
+    to {-webkit-transform:scale(2) translateY(-50%)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0.4) translateY(-50%)}
+    to {transform:scale(1) translateY(-50%)}
+}
+
+@-webkit-keyframes zoom-out {
+    from {transform:scale(1) translateY(-50%)}
+    to {transform:scale(0.4) translateY(-50%)}
+}
+
+@keyframes zoom-out {
+    from {transform:scale(1) translateY(-50%)}
+    to {transform:scale(0) translateY(-50%)}
+}
+
+/* The close Button */
+.close, .close2 {
+    position: absolute;
+    top: 5px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 100px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close2 {
+  top: 20px;
+}
+
+.close:hover,
+.close2:hover,
+.close:focus,
+.close2:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/***********************************************************************************************/
+/* =Landing page*/
+/***********************************************************************************************/
+
+.landing-hero:before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  background: white;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.landing-hero {
+  background: white;
+  background-size: cover;
+}
+
+.landing-herov2 {
+  background: #7b7b7b;
+  background-size: cover;
+}
+
+/***********************************************************************************************/
+/* =Footer */
+/***********************************************************************************************/
+
+#footer-section {
+  padding: 80px 0;
+  background: #F7F7F7;
+  border-top: 1px solid #EEEEEE;
+}
+
+ul.footer-social-links {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul.footer-social-links li {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+ul.footer-social-links li:first-child {
+  margin: 0;
+}
+
+ul.footer-social-links li a {
+  font-size: 15px;
+  color: #4F4F4F;
+  display: block;
+  text-transform: uppercase;
+}
+
+ul.footer-social-links li a:after {
+  content: "";
+  display: block;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: #fe8869;
+  opacity: 0;
+  -webkit-transform: translateY(5px);
+     -moz-transform: translateY(5px);
+      -ms-transform: translateY(5px);
+       -o-transform: translateY(5px);
+          transform: translateY(5px);
+  -webkit-transition: all .3s ease;
+     -moz-transition: all .3s ease;
+      -ms-transition: all .3s ease;
+       -o-transition: all .3s ease;
+          transition: all .3s ease;
+}
+
+ul.footer-social-links li a:hover:after {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+     -moz-transform: translateY(0);
+      -ms-transform: translateY(0);
+       -o-transform: translateY(0);
+          transform: translateY(0);
+}
+
+p.copyright {
+  padding-top: 40px;
+}
+
+/***********************************************************************************************/
+/* =Back to top */
+/***********************************************************************************************/
+
+@media screen and (max-width: 980px) {
+
+  #header-text, #top-title {
+    font-size: 22px;
+    left: 0px;
+    top: -5px;
+    margin: 0;
+    text-align: left;
+    line-height: 22px;
+    padding: 0;
+    margin-left: 4px;
+  }
+
+  .nav-title {
+    height: 70px;
+  }
+
+  p, a {
+    font-size: 12px;
+  }
+
+  .nav > li > a {
+    font-size: 8px;
+  }
+
+  .navbar-nav {
+    top: 26px;
+    left: -4px;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+  }
+
+  .ul-research {
+    top: 0px;
+  }
+
+  #maps-section {
+    top: 0px;
+  }
+
+  .ul-maps {
+    top: -20px;
+  }
+
+  #design-section {
+    top: 20px;
+  }
+
+  #about-section {
+    top: -10px;
+  }
+
+  #hero-section {
+    top: 0px;
+  }
+
+  .bio {
+    top: 10px;
+  }
+
+  #video-section {
+    top: 20px;
+  }
+
+  #contact-section {
+    top: 30px;
+  }
+
+  .contact-container {
+    margin-left: -100px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  #header-text, #top-title {
+    width: 100%;
+    font-size: 16px;
+    left: 1%;
+    margin: 0;
+    text-align: left;
+    line-height: 10%;
+    padding: 0;
+  }
+
+  .nav-title {
+    height: 50px;
+  }
+
+  .navbar-default {
+    height: 145px;
+    width: 78px;
+    top: 50px;
+    left: 0;
+    background-color: rgb(0, 0, 0, 0.8);
+  }
+
+  .navbar-nav {
+    top: 50px;
+    margin-left: 10px;
+    width: 100px;
+  }
+
+  .nav > li > a {
+    padding: 0;
+    color: white !important;
+    z-index: 1000;
+  }
+
+  .nav > li > a:hover {
+    color: red !important;
+  }
+}
